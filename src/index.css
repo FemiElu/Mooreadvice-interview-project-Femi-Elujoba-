@@ -71,14 +71,16 @@ body {
   height: 100vh;
   display: grid;
   grid-template-areas: 
-  "head head head"
-  "nav content sidebar"
-  "nav footer footer"
+  "heading heading heading"
+  "navi cont side"
+  "navi foot foot"
    ;
 
 }
 
-header,footer,main, aside, nav{
+
+
+.heading, .navi, .cont, .side, .foot {
   border: 2px black solid; 
 
 }
@@ -197,14 +199,41 @@ Slider
 }
 
 .btn {
+  color: burlywood;
+  font: 18px bold;
   background: lightblue; 
   width: 90px;
   height: 30px;
   border:1px whitesmoke solid; 
+  border-radius: 5px;
+  transition: background 1s;
+  width: 130px;
+  height: 50px; 
+  margin-top: 20px;
+  padding-top: 10px;
+  display:flex;
+  justify-content: center;
 }
+
+.btn-2{
+  background: lightslategray; 
+  border: 1px white solid; 
+  height: 50px; 
+  width: 100px; 
+  padding: 10px; 
+  color: red; 
+  font-size:16px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
 
 .btn:hover{
   background:steelblue; 
+}
+
+.btn-2:hover{
+  background:burlywood
 }
 .person-img {
   border-radius: 50%;

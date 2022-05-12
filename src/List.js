@@ -20,18 +20,29 @@
 // export default List
  
 
-import React from 'react'
+import React,{ useState } from 'react'; 
+import { pet } from './data'
 
 const List = ({person}) => {
+
+const [item, setItem] = useState(pet)
+
+  const selectPet = () => {
+    if (pet.id){
+      return (pet.name)
+    }
+
+    
+  }
   return (
     <div>
       {person.map((item)=>{
-        const {id, image, name, title, quote} = item; 
+        const {id, image, name,price} = item; 
         return <article key = {id}> 
         <h3>{name}</h3>
         <img src={image} alt={name} className= "person-img"/>
-        <p>{title}</p>
-        <h4>{quote}</h4>
+        <h4>{price}</h4>
+        <button className='btn-2'>Click to meet {selectPet} </button>
         </article>
       })}
 

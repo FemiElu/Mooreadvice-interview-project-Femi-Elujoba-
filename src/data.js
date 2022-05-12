@@ -1,39 +1,34 @@
-export const people = [
+export const pet = [
   {
     id: 1,
     image:
-      'https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959131/person-2_ipcjws.jpg',
-    name: 'maria ferguson',
-    title: 'office manager',
-    quote:
-      'Fingerstache umami squid, kinfolk subway tile selvage tumblr man braid viral kombucha gentrify fanny pack raclette pok pok mustache.',
+      'https://cdn.pixabay.com/photo/2016/02/19/15/46/labrador-retriever-1210559_960_720.jpg',
+    name: 'Bingo',
+    price: "#10,000"
+    
   },
   {
     id: 2,
     image:
-      'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg',
-    name: 'john doe',
-    title: 'regular guy',
-    quote:
-      'Gastropub sustainable tousled prism occupy. Viral XOXO roof party brunch actually, chambray listicle microdosing put a bird on it paleo subway tile squid umami.',
+      'https://cdn.pixabay.com/photo/2016/01/05/17/51/maltese-1123016_960_720.jpg',
+    name: 'Doe',
+    price: "#12,000"
+   
   },
   {
     id: 3,
     image:
-      'https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959121/person-1_aufeoq.jpg',
-    name: 'peter smith',
-    title: 'product designer',
-    quote:
-      'Drinking vinegar polaroid street art echo park, actually semiotics next level butcher master cleanse hammock flexitarian ethical paleo.',
+      'https://cdn.pixabay.com/photo/2016/11/26/23/45/dog-1861839_960_720.jpg',
+    name: 'Smith',
+    price: "#15,000"
   },
   {
     id: 4,
     image:
-      'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg',
-    name: 'susan andersen',
-    title: 'the boss',
-    quote:
-      'Marfa af yr 3 wolf moon kogi, readymade distillery asymmetrical seitan kale chips fingerstache cloud bread mustache twee messenger bag. ',
+      'https://cdn.pixabay.com/photo/2018/04/20/17/18/cat-3336579_960_720.jpg',
+    name: 'Maggi',
+    price: "#20,000"
+   
   },
 ];
 
